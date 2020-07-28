@@ -1,0 +1,108 @@
+{
+  "configVersion": 1,
+  "timestamp": 1595934814364,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/index.html",
+        "/main-es2015.73a63ae2c6c24d996d99.js",
+        "/main-es5.73a63ae2c6c24d996d99.js",
+        "/polyfills-es2015.a0fa45e0fa52702b64f0.js",
+        "/polyfills-es5.2dcde1efe3c1bf4aaa25.js",
+        "/runtime-es2015.409e6590615fb48d139f.js",
+        "/runtime-es5.409e6590615fb48d139f.js",
+        "/scripts.3dbb4db1f50cbe9dce14.js",
+        "/styles.99b2df5f3d37b94462d2.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/.gitkeep",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/kerlsautomation.PNG",
+        "/assets/kerlsautomation2.PNG",
+        "/assets/kerlsautomation3.PNG",
+        "/assets/kondas.PNG",
+        "/assets/kondas.jpg",
+        "/assets/makersplacegh.PNG",
+        "/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+        "/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+        "/fontawesome-webfont.8b43027f47b20503057d.eot",
+        "/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+        "/fontawesome-webfont.f691f37e57f04c152e23.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/.gitkeep": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/kerlsautomation.PNG": "5253b87e25ededc9c120ecaca8999386aca4199a",
+    "/assets/kerlsautomation2.PNG": "40c3c248805227b54e5864230d45c01e1d202f5e",
+    "/assets/kerlsautomation3.PNG": "f6ad006581172a1c34a70a92bb5b6571b97f2608",
+    "/assets/kondas.PNG": "8ba096d212aaffc4d90319976cd3c80a3d792a79",
+    "/assets/kondas.jpg": "2f22de950dc198dcaab37423ace82e14d07e4d44",
+    "/assets/makersplacegh.PNG": "8ccef62939f2f8c1fc53b983b9c51ef3aa8b7a87",
+    "/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/fontawesome-webfont.20fd1704ea223900efa9.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/fontawesome-webfont.8b43027f47b20503057d.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "/fontawesome-webfont.f691f37e57f04c152e23.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/index.html": "86726062660f3111788f77fe1b8ae46a64c0d01d",
+    "/main-es2015.73a63ae2c6c24d996d99.js": "446e8669ac07ad840ff86daad4728bdcc83a5c51",
+    "/main-es5.73a63ae2c6c24d996d99.js": "11e24aab213d3fb26f833b52107fd1b7cdc021d8",
+    "/polyfills-es2015.a0fa45e0fa52702b64f0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/polyfills-es5.2dcde1efe3c1bf4aaa25.js": "ff14d90e08622190714660721edab5f43578829a",
+    "/runtime-es2015.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/scripts.3dbb4db1f50cbe9dce14.js": "c78be2609130ffa75e55cc72ebbbb9eaee446ffa",
+    "/styles.99b2df5f3d37b94462d2.css": "b610893a43aacbc23cb2c0592dd4b9dd16d227af"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
