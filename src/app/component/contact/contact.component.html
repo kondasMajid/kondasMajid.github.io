@@ -1,0 +1,40 @@
+<!-- <div class="class">
+  <h4> <a [routerLink]="['/home']" style="margin:30px; text-decoration:none">Home</a> </h4>
+</div> -->
+<!--Card content-->
+<div class="card-body px-lg-5" style="margin-top: -5px;">
+  <p class="text-center">Thanks for taking the time to reach out.</p>
+  <br>
+  <br>
+  <div class="img" style="text-align:center;">
+    <!-- <img  src="../.././../assets/kondas.jpg" class="image-out"> -->
+
+  </div>
+  <!-- Form -->
+  <form class="text-center form-tag" action="https://usebasin.com/f/8c1d772a02dd" method="POST">
+    
+    <div class="md-form mt-4">
+    <input type="text" id="materialSubscriptionFormName" class="form-control inputs" name="name" [(ngModel)]="name">
+    <label for="materialSubscriptionFormPasswords" class="size">Name</label>
+    <!-- </div> -->
+    <br>
+
+    <div class="md-form" style="margin:10px">
+      <input type="email" id="materialSubscriptionFormEmail" class="form-control inputs" name="email" [(ngModel)]="email" >
+      <label for="materialSubscriptionFormEmail">E-mail</label>
+    </div>
+    <br>
+    <div class="md-form" style="margin:10px">
+      <!-- <input type="text" id="materialSubscriptionFormEmail" class="form-control" name="message"> -->
+
+      <label for="" class="size">Message</label>
+      <!-- <label for="exampleFormControlTextarea3">Rounded corners</label> -->
+      <textarea class="form-control inputs" id="exampleFormControlTextarea3" rows="5" name="message" [(ngModel)]="msg"></textarea>
+    </div>
+
+    <!-- <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit"
+    style="margin:35px; width: 150px; text-align:center" (click)="register()">Send</button> -->
+    <button mat-button  type="submit" (click)="register()" [(ngModel)]="send">Send</button>
+
+  <!-- </form> -->
+</div>

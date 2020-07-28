@@ -1,0 +1,62 @@
+.size {
+  font-size: 14px;
+}
+
+div .img img {
+  text-align: center;
+}
+
+.form-tag {
+  color: #757575;
+  width: 350px;
+  margin: 0px auto;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .heading {
+    font-size: 14px;
+  }
+
+  .head {
+    font-size: 13px;
+  }
+
+  // img {
+  //   border-radius: 70%;
+  //   width: 30%;
+  //   margin: 0px auto;
+  // }
+
+
+
+  form .inputs {
+    width: 200px;
+    // margin-right: 20px;
+  }
+
+  form {
+    float: left;
+    width: 80%;
+  }
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+@media (min-width: 992px) {
+
+  // .image-in img{
+  //   border-radius: 50px;
+  //   width: 50px;
+  // }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+//  img{
+//     border-radius: 50px;
+//     width: 50px;
+//   }
+}

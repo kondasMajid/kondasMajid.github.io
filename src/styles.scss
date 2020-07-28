@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~font-awesome/css/font-awesome.css';
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* added */
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .heading {
+    font-size: 14px;
+  }
+.head{
+  font-size: 13px;
+}
+   img {
+    border-radius: 70%;
+    width: 90%;
+    margin: 0px auto;
+  }
+  .about{
+    // font-size: 15px;
+    /* margin-top: -90px; */
+    text-align: center;
+  }
+
+
+}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}

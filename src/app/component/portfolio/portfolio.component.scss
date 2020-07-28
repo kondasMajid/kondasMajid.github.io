@@ -1,0 +1,41 @@
+.projects {
+    // height: 130px;
+    padding: 20px
+
+}
+
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    padding: 20px;
+}
+.card {
+    height: 70%;
+}
+
+   @media (max-width: 576px) {
+    .projects {
+        margin-bottom: 30px;
+    }
+  }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {}
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    
+  }
+  
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    /* .image-in img{
+      border-radius: 50px; width: 50%; margin: 0px auto
+    } */
+  }
+  
+
+  .card .card-title {
+    margin-top: -30px; background-color: rgb(179, 82, 103); font-weight: bolder; color: rgb(255, 255, 255)
+}
