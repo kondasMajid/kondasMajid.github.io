@@ -1,6 +1,6 @@
+import { BlogComponent } from './component/blog/blog.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
@@ -17,6 +17,8 @@ import { PortfolioComponent } from './component/portfolio/portfolio.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { FormsModule } from '@angular/forms';
+import { NavRightSideComponent } from './component/blog/nav-right-side/nav-right-side.component';
+import { AngularHttpRequestComponent } from './component/blog/Angular-http-request/Angular-http-request.component';
 // import 'materialize-css';
 //  import { MaterializeModule } from 'angular2-materialize';
 @NgModule({
@@ -25,9 +27,12 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     NavComponent,
     CvComponent,
-    ContactComponent,
+    ContactComponent, 
     HireComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    BlogComponent,
+    AngularHttpRequestComponent,
+    NavRightSideComponent
   ],
   imports: [
     BrowserModule,
