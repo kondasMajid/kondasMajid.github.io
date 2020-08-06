@@ -1,3 +1,6 @@
+import { PortfolioComponent } from './component/portfolio/portfolio.component';
+import { AngularBugsAnswersComponent } from './component/blog/angular-bugs-answers/angular-bugs-answers.component';
+import { BlogComponent } from './component/blog/blog.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { HomeComponent } from './component/home/home.component';
 import { NavComponent } from './component/nav/nav.component';
@@ -14,9 +17,12 @@ const routes: Routes = [
   // { path: '**', component: PageNotFoundComponent },
   {path: 'home', component: HomeComponent},
   {path: 'cv', component: CvComponent},
-  {path: 'contact', component: ContactComponent}
+  {path: 'contact', component: ContactComponent},
+  {path: 'blog', component: BlogComponent},
+  {path: 'portfolio', component: PortfolioComponent},
+  {path: 'angular-bugs-answers', component: AngularBugsAnswersComponent}
 
-];
+]; 
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -1,34 +1,38 @@
 .name {
-  padding:0 10px;
-  font-family: 'Courier New', Courier, monospace;
+    padding: 0 10px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.nav{
-  /* background-color: rgb(243, 231, 215); */
-  /* position: fixed; */
-  display: flex;
-  justify-content:flex-end;
+.nav {
+    /* background-color: rgb(243, 231, 215); */
+    /* position: fixed; */
+    display: flex;
+    justify-content: flex-end;
 }
+
 
 /* .nav-link{
   color: rgb(255, 255, 255);
 } */
-.social{
-  color: rgb(255, 255, 255);
 
+.social {
+    color: rgb(255, 255, 255);
 }
+
 
 /* .social:hover{
   color: brown;
 } */
 
-.cv{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 16px;
+.cv {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
 }
-.nav>li>a:hover, .nav>li>a:focus {
-  text-decoration: none;
-  /* background-color: #eee; */
-  color: #000;
-  height: 63px;
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    /* background-color: #eee; */
+    color: #000;
+    height: 63px;
 }

@@ -1,53 +1,115 @@
+<nav></nav>
+
 <!-- <button (click)="show = !show" >{{show ? 'hide' : 'view portfolio'}}</button> -->
-<button mat-raised-button (click)="show = !show">{{show ? 'hide portfolio' : ' Portfolio'}}</button>
+<!-- <button mat-raised-button (click)="show = !show">{{show ? 'hide portfolio' : ' Portfolio'}}</button> -->
+<!-- <button mat-raised-button>sss</button> -->
 <br>
 <br>
 <br>
-<div *ngIf="show" class="container">
-  <div class="row">
-    <div class="col-md-6 projects">
-      <div class="card">
-        <img class="card-img-top" src="../../../assets/makersplacegh.PNG" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title" style="margin-top: -30px">Makers Place GH  </h5>
-          <!-- <p class="card-text">STEM Education for Kids</p> -->
-          <a href="#" class="btn btn-primary" (click)="Project1()">View</a>
+<!-- <div *ngIf="show" class="container"> -->
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-md-6 projects">
+            <div class="card">
+                <img class="card-img-top" src="../../../assets/makersplacegh.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" style="margin-top: -30px">Makers Place GH </h5>
+                                       <a href="#" class="btn btn-primary" (click)="Project1()">View</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 projects ">
+            <div class="card">
+                <img class="card-img-top" src="../../../assets/kerlsautomation2.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" style="">Kersl Automation</h5>
+                    <a href="#" class="btn btn-primary">view</a>
+                </div>
+            </div>
         </div>
       </div>
-   </div>
-   <div class="col-md-6 projects ">
-    <div class="card">
-      <img class="card-img-top" src="../../../assets/kerlsautomation2.PNG" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title" style="">Kersl Automation</h5>
-        <!-- <p class="card-text">Industrial  Automation Company</p> -->
-        <a href="#" class="btn btn-primary">view</a>
-      </div>
-    </div>
- </div>
- <!-- <div class="col-md-4 projects">
-  <div class="card">
-    <img class="card-img-top" src="../../../assets/kondas.jpg" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
 </div> -->
-  </div>
+<div class="container mt-40">
+    <h3 class="text-center">List of Projects</h3>
+    <div class="row mt-30">
+        <div class="col-md-4 col-sm-6">
+            <div class="box8">
+                <img src="http://bestjquery.com/tutorial/hover-effect/demo148/images/img-1.jpg">
+                <button mat-raised-button>Angular Github API</button>
+                <div class="box-content">
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i> </a> </li>
+                        <li><a href="#"><i class="fa fa-link"></i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="box8">
+                <img src="http://bestjquery.com/tutorial/hover-effect/demo148/images/img-2.jpg">
+                <button mat-raised-button>Custom Google Search</button>
+                <div class="box-content">
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i> </a> </li>
+                        <li><a href="#"><i class="fa fa-link"></i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="box8">
+                <img src="http://bestjquery.com/tutorial/hover-effect/demo148/images/img-3.jpg">
+                <button mat-raised-button>Angular Github API</button>
+                <div class="box-content">
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i> </a> </li>
+                        <li><a href="#"><i class="fa fa-link"></i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button mat-raised-button (click)="show = !show">{{show ? 'hide portfolio' : ' Show more'}}</button>
+    <div *ngIf="show">
+
+        <div class="row mt-30">
+            <div class="col-md-4 col-sm-6">
+                <div class="box8">
+                    <img src="http://bestjquery.com/tutorial/hover-effect/demo148/images/img-1.jpg">
+                    <button mat-raised-button>Angular Github API</button>
+                    <div class="box-content">
+                        <ul class="icon">
+                            <li><a href="#"><i class="fa fa-search"></i> </a> </li>
+                            <li><a href="#"><i class="fa fa-link"></i> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="box8">
+                    <img src="http://bestjquery.com/tutorial/hover-effect/demo148/images/img-2.jpg">
+                    <button mat-raised-button>Custom Google Search</button>
+                    <div class="box-content">
+                        <ul class="icon">
+                            <li><a href="#"><i class="fa fa-search"></i> </a> </li>
+                            <li><a href="#"><i class="fa fa-link"></i> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="box8">
+                    <img src="http://bestjquery.com/tutorial/hover-effect/demo148/images/img-3.jpg">
+                    <button mat-raised-button>Angular Github API</button>
+                    <div class="box-content">
+                        <ul class="icon">
+                            <li><a href="#"><i class="fa fa-search"></i> </a> </li>
+                            <li><a href="#"><i class="fa fa-link"></i> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<!-- Industrial  Automation Company STEM Education for Kids -->
-<!-- <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
-</div> -->

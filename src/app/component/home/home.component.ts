@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   // Id = 'D E S I G N E R '
   Tag = 'Junior Software developer';
   sub_heading = '  ';
-
+  
   
   constructor(private dialog: MatDialog) { }
 

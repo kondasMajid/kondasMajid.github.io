@@ -1,113 +1,121 @@
 img {
-  margin: 10px;
+    margin: 10px;
 }
 
 div .image-in {
-  margin: 0px auto;
-  text-align: center;
+    margin: 0px auto;
+    text-align: center;
 }
 
 .image-in img {
-  border-radius: 80%;
-  width: 50%;
-  /* margin-top: -100px; */
+    border-radius: 80%;
+    width: 50%;
+    /* margin-top: -100px; */
 }
 
 .heading {
-  font-weight: bolder;
-  font-family: 'Staatliches', cursive;
+    font-weight: bolder;
+    font-family: 'Staatliches', cursive;
 }
 
 .hello {
-  float: right;
-  margin: 0 20px 0 0;
+    float: right;
+    margin: 0 20px 0 0;
 }
 
-.hallo{
-  margin-top: 70px;
-}
-.hire-me{
-  width: 115px;
-  height: 36px;
-  font-size: 17px;
-  font-weight: bold;
+.hallo {
+    /* margin-top: 70px; */
 }
 
-.hi{
-  font-size:14px;
+.hire-me {
+    width: 115px;
+    height: 36px;
+    font-size: 17px;
+    font-weight: bold;
 }
+
+.hi {
+    font-size: 14px;
+}
+
+
 /* // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
-/* // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
-  h2  {
-      /* margin-bottom: 3.5rem; */
-  }
 
-  .about {
-    color: rgb(0, 0, 0);
-    /* margin: 10px; */
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-    text-align: center;
-    font-size: 14px;
-  }
-  img{
-    width: 45%;
-    margin-top: -100px;
-  }
-  .image-in img {
-    border-radius: 80%;
-    width: 50%;
-    margin-top: -100px;
-  }
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    h2 {
+        /* margin-bottom: 3.5rem; */
+    }
+    .about {
+        color: rgb(0, 0, 0);
+        /* margin: 10px; */
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        text-align: center;
+        font-size: 14px;
+    }
+    img {
+        width: 45%;
+        margin-top: -100px;
+    }
+    .image-in img {
+        border-radius: 80%;
+        width: 50%;
+        margin-top: -100px;
+    }
 }
 
+
 /* // Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) {}
 
+
 /* // Large devices (desktops, 992px and up) */
+
 @media (min-width: 992px) {
-  /* .image-in img{
+    /* .image-in img{
     margin-top: 50px;
   }
   .image-in img{
     border-radius: 50px; width: 50%; margin: 0px auto
   } */
-
-  .about {
-    /* color: darkgoldenrod; */
-    color: #EE6E73;
-    margin: 10px;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-    text-align: center;
-    font-size: 22px;
-  }
-
-  img{
-    border-radius: 80%;
-    width: 50%;
-    margin: 0px auto;
-  }
+    .about {
+        /* color: darkgoldenrod; */
+        color: #EE6E73;
+        margin: 10px;
+        font-family: 'Poiret One', cursive;
+        font-weight: bold;
+        text-align: center;
+        font-size: 22px;
+    }
+    img {
+        border-radius: 80%;
+        width: 50%;
+        margin: 0px auto;
+    }
 }
 
+
 /* // Extra large devices (large desktops, 1200px and up) */
+
 @media (min-width: 1200px) {
-  /* .image-in img{
+    /* .image-in img{
     border-radius: 50px; width: 50%; margin: 0px auto
   } */
 }
 
 
-
 /* Angular material css */
+
 .example-card {
-  max-width: 400px;
+    max-width: 400px;
 }
 
 .example-header-image {
-  /* background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg'); */
-  background-size: cover;
+    /* background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg'); */
+    background-size: cover;
 }
